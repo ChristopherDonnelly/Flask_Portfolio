@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Hello World</title>
+    <!-- linking a css style sheet -->
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='style.css') }}">  
+</head>
+<body>
+    <div id="wrapper">
+        <div id="nav">
+            <p>
+                <a href="\">Home</a> |
+                <em>My Projects</em> |
+                <a href="\about">About Me</a>
+            </p>
+        </div>
+        <h1>My Projects:</h1>
+        <ul>
+            <li>Happy go lucky candy company</li>
+            <li>Totally messed up web design</li>
+            <li>Python is crazy like a fox</li>
+            <li>Count me in, I'm up for anything</li>
+            <li>How about we hit the road</li>
+        </ul>
+    </div>
+</body>
+</html>

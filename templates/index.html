@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Hello World</title>
+    <!-- linking a css style sheet -->
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='style.css') }}">  
+</head>
+<body>
+    <div id="wrapper">
+        <div id="nav">
+            <p>
+                <em>Home</em> |
+                <a href="\projects">My Projects</a> |
+                <a href="\about">About Me</a>
+            </p>
+        </div>
+        <h1>Welcome to my Portfolio</h1>
+        <p>My name is Chris!</p>
+    </div>
+</body>
+</html>
